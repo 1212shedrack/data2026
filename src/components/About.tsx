@@ -11,9 +11,7 @@ export const About = () => {
 
           <div className="mb-12">
             <p className="text-lg text-muted-foreground text-center leading-relaxed">
-              I'm a passionate data science enthusiast with a strong foundation in statistics, machine learning, 
-              and data visualization. Currently pursuing my education in data science, I'm dedicated to turning 
-              complex data into clear, actionable insights that drive decision-making and innovation.
+              I am a data science graduate with a strong interest in data analysis, machine learning, full stack development, and data visualization. I have experience working with datasets to extract meaningful insights and communicate results clearly. I am passionate about using data to understand problems, support decision-making, and create practical solutions that add value to organizations
             </p>
           </div>
 
@@ -25,20 +23,21 @@ export const About = () => {
               <h3 className="text-xl font-semibold mb-2">Education</h3>
               <p className="text-muted-foreground">
                 Bachelor's in Data Science<br />
-                University Name<br />
-                2021 - Present
+                mbeya university(MUST)<br />
+                2022 - 2026
               </p>
             </Card>
 
             <Card className="p-6 hover:shadow-card transition-all duration-300 border-2 hover:border-accent">
-              <div className="bg-gradient-primary w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+              <div className="bg-gradient-accent w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Interests</h3>
               <p className="text-muted-foreground">
                 Machine Learning<br />
                 Data Visualization<br />
-                Predictive Analytics
+                Predictive Analytics <br />
+                Full Stack Development
               </p>
             </Card>
 
@@ -48,8 +47,7 @@ export const About = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Career Goal</h3>
               <p className="text-muted-foreground">
-                To become a leading data scientist, solving complex problems and 
-                creating innovative solutions that make a real-world impact.
+                To apply my data science skills and experience to solve complex problems and develop innovative solutions that create meaningful real-world impact.
               </p>
             </Card>
           </div>

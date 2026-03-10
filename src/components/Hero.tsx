@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, Github, Linkedin, Mail } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import profileImg from "@/assets/profile-placeholder.jpg";
+import profileImg from "@/assets/profile-placeholder.jpeg";
 
 export const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -34,11 +34,12 @@ export const Hero = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-100">
-            Your Name Here
+            hi, i'm SHEDRACK MOSSES MOLLEL
           </h1>
 
           <p className="text-xl md:text-2xl text-accent font-semibold mb-6 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-200">
-            Aspiring Data Scientist
+           Data Science Engineer  Machine Learning & Full-Stack Integration  Turning Data Into Scalable Solutions
+
           </p>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
