@@ -5,9 +5,9 @@ import { Mail, Linkedin, Github, FileCode } from "lucide-react";
 const contactLinks = [
   {
     name: "Email",
-    value: "your.email@example.com",
+    value: "shedrackmossesmollel@example.com",
     icon: Mail,
-    href: "mailto:your.email@example.com",
+    href: "mailto:your.shedrackmossesmollel@example.com",
     color: "bg-red-500",
   },
   {
@@ -19,14 +19,14 @@ const contactLinks = [
   },
   {
     name: "GitHub",
-    value: "github.com/yourusername",
+    value: "github.com/1212shedrack",
     icon: Github,
     href: "https://github.com",
     color: "bg-gray-800",
   },
   {
     name: "Kaggle",
-    value: "kaggle.com/yourusername",
+    value: "kaggle.com/shedrackmossesmollel@gmail.com",
     icon: FileCode,
     href: "https://kaggle.com",
     color: "bg-cyan-500",
