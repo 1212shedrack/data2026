@@ -36,12 +36,18 @@ export const Navigation = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/95 backdrop-blur-md shadow-soft" : "bg-transparent"
+        scrolled
+          ? "bg-background/95 backdrop-blur-md shadow-soft"
+          : "bg-background/80"
       }`}
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a href="#home" className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent">
+          {/* Logo */}
+          <a
+            href="#home"
+            className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent"
+          >
             DS Portfolio
           </a>
 
@@ -63,10 +69,14 @@ export const Navigation = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden text-foreground bg-white shadow rounded"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <X /> : <Menu />}
+            {isOpen ? (
+              <X className="text-foreground" />
+            ) : (
+              <Menu className="text-foreground" />
+            )}
           </Button>
         </div>
 

@@ -7,7 +7,7 @@ const contactLinks = [
     name: "Email",
     value: "shedrackmossesmollel@gmail.com",
     icon: Mail,
-    href: "mailto:shedrackmossesmollel@example.com",
+    href: "mailto:shedrackmossesmollel@gmail.com?subject=Portfolio Contact",
     color: "bg-red-500",
   },
   {
