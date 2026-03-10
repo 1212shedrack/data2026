@@ -69,7 +69,7 @@ export const Navigation = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden text-foreground bg-white shadow rounded"
+            className="md:hidden text-white bg-green-400 shadow rounded"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
