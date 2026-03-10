@@ -73,9 +73,9 @@ export const Navigation = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
-              <X className="text-foreground" />
+              <X className="text-white" />
             ) : (
-              <Menu className="text-foreground" />
+              <Menu className="text-white" />
             )}
           </Button>
         </div>
