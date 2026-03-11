@@ -62,9 +62,9 @@ export const Hero = () => {
             >
               Get In Touch
             </Button>
-          </div>
+          </div> <br />
 
-          <div className="flex gap-4 justify-center mt-8 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-700">
+          {/* <div className="flex gap-4 justify-center mt-8 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-700">
             <Button variant="ghost" size="icon" className="hover:text-accent hover:scale-110 transition-all">
               <Github className="w-5 h-5" />
             </Button>
@@ -74,7 +74,7 @@ export const Hero = () => {
             <Button variant="ghost" size="icon" className="hover:text-accent hover:scale-110 transition-all">
               <Mail className="w-5 h-5" />
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -11,6 +11,9 @@ const projects = [
     dataset: "Telecom Customer Dataset (Kaggle)",
     techStack: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
     results: "Identified key churn factors and improved retention strategy recommendations",
+    demoLink: "https://chedy.netlify.app",   // ✅ Added this
+    codeLink: "https://github.com/1212shedrack/my-portfolio.git" // optional if you want GitHub link
+
   },
   {
     title: "Crop Yield Forecasting",
@@ -94,14 +97,34 @@ export const Projects = () => {
                 </div>
 
                 <div className="flex gap-2 mt-auto">
-                  <Button size="sm" variant="outline" className="flex-1">
-                    <Github className="w-4 h-4 mr-1" />
-                    Code
-                  </Button>
-                  <Button size="sm" className="flex-1 bg-gradient-accent hover:opacity-90">
-                    <ExternalLink className="w-4 h-4 mr-1" />
-                    Demo
-                  </Button>
+                  <div className="flex gap-2 mt-auto">
+  {project.codeLink && (
+    <Button
+      size="sm"
+      variant="outline"
+      className="flex-1"
+      asChild
+    >
+      <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
+        <Github className="w-4 h-4 mr-1" />
+        Code
+      </a>
+    </Button>
+  )}
+
+  {project.demoLink && (
+    <Button
+      size="sm"
+      className="flex-1 bg-gradient-accent hover:opacity-90"
+      asChild
+    >
+      <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+        <ExternalLink className="w-4 h-4 mr-1" />
+        Demo
+      </a>
+    </Button>
+  )}
+</div>
                 </div>
               </Card>
             ))}
